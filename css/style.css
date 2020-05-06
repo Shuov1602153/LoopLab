@@ -1,0 +1,81 @@
+body{
+  background: #333;
+  color: #fff;
+}
+nav{
+  border-bottom: 1px solid #008ed6;
+  opacity: 0.8;
+}
+
+.home-section{
+  background: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 700px;
+}
+.home-section .dark-overly{
+ 
+  background: rgba(0,0,0,.7);
+}
+.home-section .home-inner{
+  padding-top: 150px;
+
+}
+.home-section .card-form{
+  opacity: 0.8;
+}
+.home-section .fa{
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.learnAndShare,.share-creation{
+  background: #fff;
+  color: #333;
+}
+.baby img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.learnAndShare .learn-icon .fa{
+  font-size: 27px;
+  font-weight: bold;
+  background: #333;
+  color: #fff;
+  padding: 4px;
+  border-radius: 5px
+}
+.Creat-section,.Share-section{
+  background:#007BFF;
+  color: #fff;
+}
+.Creat-passion .learn-icon .fa{
+  font-size: 27px;
+  font-weight: bold;
+  background: #fff;
+  color: #008ed6;
+  padding: 4px;
+  border-radius: 5px
+}
+.share-creation .learn-icon .fa{
+  font-size: 27px;
+  font-weight: bold;
+  background: #333;
+  color: #fff;
+  padding: 4px;
+  border-radius: 5px
+}
+#loginModal label {
+  display: block;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+#loginModal .modal-footer {
+  border-top: none;
+}
+#loginModal .modal-footer button{
+  
+}
